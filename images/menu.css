@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*menu_下拉*/
+
+/* Nav
+==========================================================*/
+.nav {
+width:979px; 
+    position: relative;
+	margin:0px auto;
+   
+}
+.navinner {
+    background: url(../images/uppic/lrtk.png) no-repeat 100% -72px;
+}
+.navlist {
+    height: 51px;
+    line-height: 49px;
+    overflow: hidden;
+}
+.nav li {background: url(../images/index_03.jpg) no-repeat;width:120px; height:51px;font-weight:bold;font-size:14px; text-align:center;color:#fff;
+    float: left; 
+    display: inline;
+}
+.nav a {
+    display: block;color:#fff;
+    width: 120px;
+    text-align: center;text-decoration:none;
+}
+.nav a:hover{background: url(../images/index_12.jpg) no-repeat; width:120px; height:51px; text-align:center;text-decoration:none;color: #EE1B25;
+}  
+
+.nav a.current, .nav a:hover, .nav a:active {
+    color: #EE1B25;
+    font-weight: bold;
+
+}
+.subnav {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    white-space: nowrap;
+    background: url(../images/lrtk.png) no-repeat 0 -180px;
+}
+* html .subnav {
+    margin: 0 10px 0 -10px; /* IE 6 and below */
+}
+.subnav p {
+    padding: 0 10px;
+    background: url(../images/lrtk.png) no-repeat 100% -234px;
+}
+.subnav p span {
+    display: block;
+    background: url(../images/lrtk.png) repeat-x 0 -207px;
+}
+.subnav p.pointer {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 5px;
+    width: 11px;
+    padding: 0;
+    margin-left: 20px;
+    text-indent: -999em;
+    background: url(../images/lrtk.png) repeat-x 0 -261px;
+}
+.subnav a {
+    display: inline;
+    padding: 0;
+    font-size: 100%;
+}
+[class~="subnav"] a {
+    padding: 0 3px;font-weight: normal;
+}
+.subnav, .subnav a:link, .subnav a:visited {
+    color: #2965AE;
+}
+.subnav a:hover, .subnav a:active {
+    color: #2965AE;
+}
+.subnav a:hover, .subnav a:active {
+    font-weight: normal;
+    background: none;
+    border-bottom: 2px solid;
+}
+/* subnav position and pointer position */
+
+#subnav5{ left: 425px; }
+
+#subnav5 .pointer { left:90px; }
+
+
+#subnav5 { min-width:110px;}
+
+
+/* Note
+==========================================================*/
+.note {
+    margin: 0 15px 10px;
+	color:#666666;
+}
+.note span{
+	float:right;
+}
+.disable {
+    display: none;
+}
+
+
+
+/*menu_下拉*/
